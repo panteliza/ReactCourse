@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function People({profile,profession,bgColor}) {
+export default function People({profile,profession,bgColor,award}) {
   return (
     <div>
       
@@ -12,7 +12,7 @@ export default function People({profile,profession,bgColor}) {
             <b>Profession:</b>{profession}
           </li>
           <li>
-            <b>Awards: 4</b> (Nobel Prize in Physics, Nobel Prize in Chemistry, Davy Medal, Matteucci Medal)
+            <b>Awards: 4</b> {award}
             <li>
 
             <b>Discovered:</b> polonium (element)

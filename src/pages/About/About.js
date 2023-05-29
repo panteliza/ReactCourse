@@ -9,11 +9,11 @@ export default function About() {
       <h1>Noble Scientists</h1>
       </div>
       <div>
-      <People profile="Eliza Pant" profession="web developer" bgColor='pink'/>
+      <People profile="Eliza Pant" profession="physicist and chemist" award="(Nobel Prize in Physics, Nobel Prize in Chemistry, Davy Medal, Matteucci Medal)" bgColor='pink'/>
       </div>
         
       <div>
-      <People profile="Monica Geller" profession="Singer" bgColor='blue'/>
+      <People profile="Monica Geller" profession="geochemist" award="(Miyake Prize for geochemistry, Tanaka Prize)" bgColor='blue'/>
       </div>
 
     

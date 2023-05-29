@@ -1,5 +1,5 @@
 .dark{
-  background-color: gray;
+  background-color: yellow;
   color:white;
 }
 
@@ -18,7 +18,7 @@
 }
 .channel, .views{
   font-size: small;
-  color:#ccc;
+  color:#9711cc;
   margin-bottom: 0.2em;
 }
 

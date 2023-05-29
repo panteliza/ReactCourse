@@ -7,7 +7,7 @@ function Video({title,id,channel="elu",views,time,verified}) {
       <>
       <div className='container'>
       <div className="pic">
-      <img src={`https://picsum.photos/id/${id}/160/90`} alt="Katherine Johnson" />
+      <img src={`https://picsum.photos/id/${id}/160/90`} alt="easycode" />
       </div>
       <div className="title">{title}</div>
       <div className="channel">{channel} {verified && '✅'} </div>
