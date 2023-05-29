@@ -1,22 +1,28 @@
 import React from 'react'
+ import './About.css'
 import People from '../../components/People/People'
+import peoples from '../../data/Data2'
+function About() {
+  return(
+  <div className="About">
+  <h1>Renowned Profile</h1>
+    <div className="peep">
+  {
+    peoples.map(people=><People
+      
+      name={people.name}
+     profession={people.profession}
+      award={people.award}
+      discovered={people.discovered}
+     image={people.image}
+     className="abc" bgColor={people.bgColor}
+     
+    ></People>)
+  }
+  </div>
 
-
-export default function About() {
-  return (
-    <>
-    <div>
-      <h1>Noble Scientists</h1>
-      </div>
-      <div>
-      <People profile="Eliza Pant" profession="physicist and chemist" award="(Nobel Prize in Physics, Nobel Prize in Chemistry, Davy Medal, Matteucci Medal)" bgColor='pink'/>
-      </div>
-        
-      <div>
-      <People profile="Monica Geller" profession="geochemist" award="(Miyake Prize for geochemistry, Tanaka Prize)" bgColor='blue'/>
-      </div>
-
-    
-    </>
-  )
+</div>
+  );
 }
+
+export default About;
