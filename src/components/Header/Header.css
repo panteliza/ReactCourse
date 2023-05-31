@@ -1,0 +1,45 @@
+.btn-header{
+  color:white;
+  background-color: blue;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+
+}
+.header-comp{
+  background-color: #f1f4f8;
+  padding: 30px;
+  align-items: center;
+}
+.header-one{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 20px;
+  align-items: center;
+  gap: 20px;
+}
+.header-one1{
+  display: flex;
+  gap: 10px;
+}
+.place{
+  border: none;
+  outline: none;
+}
+.header-two{
+  display: flex;
+  justify-content:center;
+  margin: 10px;
+  gap:40px;
+  align-items: center;
+  margin-top: 30px;
+ 
+}
+.sort-type{
+  display: flex;
+ gap: 5px;
+ align-items: center;
+ justify-content: center;
+ 
+}

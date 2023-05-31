@@ -1,0 +1,14 @@
+.job-list-title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.icon-now{
+  display: flex;
+  gap:5px;
+}
+.main-job{
+  width: 250px;
+}
