@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
     <div className="navbar-left">
-      <span className="navbar-title">MyApp</span>
+      <span className="navbar-title">JobSearch</span>
     </div>
     <div className="navbar-middle">
       <ul className="navbar-links">
@@ -16,6 +16,9 @@ export default function Navbar() {
         </li>
         <li className="navbar-item">
           <a href="/contact" className="navbar-link">Contact</a>
+        </li>
+        <li className="navbar-item">
+          <a href="/learning" className="navbar-link">Learning</a>
         </li>
       </ul>
     </div>
